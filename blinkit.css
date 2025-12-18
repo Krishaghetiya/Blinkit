@@ -1,0 +1,316 @@
+.gap {
+  gap: 20px;
+}
+.navbar-brand {
+  padding-left: 20px;
+}
+.location h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.location p {
+  font-size: 13px;
+  margin-top: -6px;
+}
+.image img {
+  width: 100%;
+  height: auto;
+}
+.se {
+  width: 70%;
+  height: 45px;
+}
+.cart {
+  width: 100px;
+}
+.icon {
+  display: none;
+}
+.pan img {
+  margin-left: -20px;
+  margin-bottom: -20px;
+}
+.cont {
+  margin-left: 70px;
+}
+
+/* card */
+
+.heading {
+  margin-bottom: 16px;
+  padding-left: 120px;
+  padding-right: 120px;
+  color: rgb(28, 28, 28);
+}
+
+.heading span {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(12, 131, 31);
+}
+
+.card .Cont-d {
+  width: 172px;
+  height: 310px;
+}
+
+.Cont-d {
+  border: 0.4px solid rgb(229, 228, 228);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.card-t {
+  font-size: 14px;
+}
+
+.Cont {
+  padding: 2px 10px;
+  height: 70px;
+}
+
+.Cont h5 {
+  margin-bottom: 4px;
+}
+
+.Cont p {
+  font-size: 13px;
+  color: rgb(102, 102, 102);
+  padding-top: 5px;
+  margin-bottom: 8px;
+}
+
+.watch {
+  background-color: #f8f8f8;
+  padding-top: 8px;
+  height: 18px;
+  width: 60px;
+  border-radius: 5px;
+  margin-left: 12px;
+  margin-bottom: 6px;
+}
+
+.watch p {
+  padding-left: 3px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.add p {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(31, 31, 31);
+  width: 50px;
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+.add button {
+  margin-right: 15px;
+  height: 34px;
+  padding: 2px 22px;
+  background-color: #f7fff9;
+  border: 0.8px solid rgb(49, 134, 22);
+  font-weight: 600;
+  color: rgb(49, 134, 22);
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.Amul {
+  margin-bottom: 60px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .c1 {
+    display: none;
+  }
+  .c2 {
+    display: none;
+  }
+  svg {
+    display: none;
+  }
+  .location {
+    width: 100%;
+    margin-top: -15px;
+  }
+  .se {
+    width: 100%;
+  }
+  .icon {
+    display: inline;
+  }
+  .H1 {
+    display: flex;
+    width: 100%;
+  }
+  .pan img {
+    height: 180px;
+    width: 700px;
+    margin-left: -3px;
+  }
+  .img3 img {
+    margin-top: 20px;
+  }
+  .cont {
+    margin-left: 30px;
+  }
+  .curd {
+    display: none;
+  }
+  .heading {
+    padding-left: 40px;
+    padding-right: 50px;
+  }
+  .Amul {
+    margin-left: 20px;
+  }
+  .s1 {
+    margin-left: 20px;
+  }
+  .s2 {
+    margin-left: 20px;
+  }
+}
+
+
+
+@media (max-width: 547px) {
+  .pan img {
+    display: none;
+  }
+  .img1 img {
+    margin-top: -30px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+  }
+  .img2 img {
+    margin-left: 35px;
+    margin-bottom: 0px;
+  }
+  .img3 img {
+    margin-left: 35px;
+    margin-bottom: 0px;
+  }
+  .cont {
+    margin-left: 0px;
+  }
+  .img-c {
+    height: 185px;
+    width: 140px;
+  }
+  .gap {
+    gap: 0px;
+  }
+  .i-20 {
+    margin-left: -20px;
+  }
+  .i-19 {
+    margin-left: 60px;
+  }
+  .heading {
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  .slice {
+    display: none;
+  }
+  .milk1 {
+    margin-left: 1px;
+  }
+  .Amul {
+    margin-left: -8px;
+  }
+  .s1 {
+    margin-left: 5px;
+  }
+  .s2 {
+    margin-left: 5px;
+  }
+}
+
+
+/* =========================================
+   MOBILE SCREENSHOT FIX (375px – 520px)
+   ========================================= */
+
+@media (min-width: 375px) and (max-width: 520px) {
+
+  /* ---------- HEADER CLEAN ---------- */
+  .c1,
+  .c2,
+  svg,
+  .slice {
+    display: none;
+  }
+
+  .location {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .se {
+    width: 100%;
+  }
+
+  /* ---------- BANNER / CATEGORY IMAGES ---------- */
+  .img1 img,
+  .img2 img,
+  .img3 img {
+    width: 300px;
+    height: auto;
+    margin: 0 auto 16px auto;
+    display: block;
+  }
+
+  .img-c {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .pan img {
+    display: none;
+  }
+
+  /* ---------- FIX CONTAINER SHIFT ---------- */
+  .cont {
+    margin-left: 0;
+  }
+
+  /* ---------- PRODUCT CARDS ---------- */
+  .card .Cont-d {
+    width: 160px;
+    height: auto;
+  }
+
+  
+
+  /* ---------- SPACING ---------- */
+  .gap {
+    gap: 12px;
+  }
+
+  .heading {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .Amul {
+    margin-left: 30px;
+    width: 400px;
+  }
+
+  .s1,
+  .s2 {
+    margin-left: 0;
+  }
+}
